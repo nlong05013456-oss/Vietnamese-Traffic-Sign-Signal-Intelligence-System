@@ -229,8 +229,3 @@ docker run -p 8000:8000 vietnamese-traffic-intelligence:latest
 - [ ] Validate temporal tracker against real video, not just unit logic
 - [ ] Wire FastAPI to the actual trained weights and test `/predict` end-to-end
 - [ ] One-time AWS demo deploy (with billing alerts set), or HuggingFace Spaces as a lower-risk alternative
-
----
-
-## 📜 License
-MIT License.
