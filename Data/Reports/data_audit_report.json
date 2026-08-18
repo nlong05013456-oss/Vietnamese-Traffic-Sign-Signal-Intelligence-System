@@ -1,0 +1,303 @@
+{
+  "traffic_lights": {
+    "dataset": "Vietnam Traffic Light",
+    "splits": {
+      "train": {
+        "images": 2513,
+        "labels": 2509,
+        "objects": 4607
+      },
+      "valid": {
+        "images": 103,
+        "labels": 103,
+        "objects": 181
+      },
+      "test": {
+        "images": 50,
+        "labels": 50,
+        "objects": 95
+      }
+    },
+    "corrupted_images": [],
+    "invalid_bboxes": [
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.0e7c88ff436f0c700b63840c3c0d4c58.txt",
+        "line": 1,
+        "content": "1 0.9013320296874999 0.70082188125 0.9078110328125 0.6684708703125 0.888732275 0.6598171921875 0.8632351953124999 0.7762441515625 0.8783850265625001 0.782650534375 0.8957280125 0.70239961875 0.9013320296874999 0.70082188125",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.74e8c20be6911138b3d1ee7bf588304f.txt",
+        "line": 1,
+        "content": "1 0.8718823375 0.53357803125 0.8738844125 0.499863696875 0.8540701687500001 0.49741916249999996 0.8447333625000001 0.6194411390625 0.8604049046875 0.6209268625 0.8666140640625001 0.536892584375 0.8718823375 0.53357803125",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.01847d3d331d5fc2a6c1c5e8f2c8702a.txt",
+        "line": 1,
+        "content": "1 0.9207863671875 0.49879743750000005 0.91575410625 0.46551054687500004 0.8954461171875 0.4654270703125 0.9115703140625 0.586146075 0.92753898125 0.5857731640625 0.916213796875 0.502662009375 0.9207863671875 0.49879743750000005",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.2018eb7a7429e91047edb884ca5fea35.txt",
+        "line": 1,
+        "content": "1 0.8874866406249999 0.602536340625 0.8890968000000001 0.568916534375 0.8692409015625 0.564731475 0.86132115625 0.6862282921875 0.8770204234375001 0.689089565625 0.88225353125 0.6053976140625 0.8874866406249999 0.602536340625",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.0486d3864afb124c659bcc65e6421a69.txt",
+        "line": 1,
+        "content": "1 0.8589643171875 0.46553939218749996 0.8572420375 0.432472965625 0.837012103125 0.43333622656250004 0.8411395578124999 0.5533548015624999 0.8570902281249999 0.5522372609375 0.8540251874999999 0.46961878281249997 0.8589643171875 0.46553939218749996",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.86c57f5dd59346da43743005c9605551.txt",
+        "line": 1,
+        "content": "1 0.9229505828125 0.6149711140624999 0.9265246843750001 0.5816103921875 0.9068805953125001 0.5755913296874999 0.8918600421875 0.6959563656250001 0.90741795625 0.7002691671875 0.917542028125 0.6173361453124999 0.9229505828125 0.6149711140624999",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\-1-_jpg.rf.cedf75052454812cdbd6393ad431bf43.txt",
+        "line": 1,
+        "content": "1 0.8970944109375001 0.5388904671875 0.89459534375 0.5053686484375 0.87437741875 0.503987515625 0.8813234421875 0.6254226453125 0.8972543921874999 0.6260712546875 0.892249009375 0.5424527453125 0.8970944109375001 0.5388904671875",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.67fcd408e7825b1bd8ea827c266595e3.txt",
+        "line": 0,
+        "content": "1 0.824255559375 0.0991007 0.7911510703125 0.26674886249999996 0.8138216937499999 0.2710093484375 0.84728544375 0.10332752812499998 0.824255559375 0.0991007",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.29f46b8440a5a1beb5b13d1e60e4c081.txt",
+        "line": 0,
+        "content": "1 0.8318753718749999 0.129068346875 0.7882156250000001 0.294586071875 0.81051225625 0.3001603921875 0.8545317953125 0.1346299546875 0.8318753718749999 0.129068346875",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.dbba07e008bf000275641f5a162bb818.txt",
+        "line": 0,
+        "content": "1 0.7536143203125001 0.101488228125 0.7440122046875 0.27088629375 0.76713225625 0.27259807343750003 0.777086696875 0.10312710781250001 0.7536143203125001 0.101488228125",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.b9bb39ac8c02c86f42c6ce17acf910a0.txt",
+        "line": 0,
+        "content": "1 0.7774783515625 0.12881989375 0.7639313890625 0.29716114375 0.7870151140625 0.3004820328125 0.800916153125 0.13209263124999998 0.7774783515625 0.12881989375",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.a0f573f9428f87f357c1d52b609603f1.txt",
+        "line": 0,
+        "content": "1 0.7197655890625 0.11431728593749999 0.7111314734375 0.284063703125 0.7343085375 0.28510318125 0.7432952671875 0.11527357812500001 0.7197655890625 0.11431728593749999",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.e518b8216dd38421ebafb8bfaf9568b8.txt",
+        "line": 0,
+        "content": "1 0.8279158828125001 0.163884740625 0.77191655625 0.3270572671875 0.793698996875 0.3337972328125 0.8500575859374999 0.170630840625 0.8279158828125001 0.163884740625",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\DJI_0692_000253_jpg.rf.f51b485ecdd118a2b82b84bd9fcf8509.txt",
+        "line": 0,
+        "content": "1 0.7087732203125 0.035775460937499996 0.7129860796874999 0.204774125 0.73617503125 0.202710190625 0.7323074921875 0.03358223125 0.7087732203125 0.035775460937499996",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.7d990177d8fe2377577525554be8f76a.txt",
+        "line": 0,
+        "content": "1 0.6788348234375 0.0410424265625 0.711290346875 0.224438215625 0.7387200046875 0.21685965000000001 0.71228195 0.0434848703125 0.6788348234375 0.0410424265625",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.23ffbb924e2cbc88aa2c1f297e30af67.txt",
+        "line": 0,
+        "content": "1 0.8178398437500001 0.07777301875 0.7611179781249999 0.2592513796875 0.7897253140625 0.2603404546875 0.8472219875 0.09004522968749999 0.8178398437500001 0.07777301875",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.015de5cc35534d22bbe8d4a8366b8693.txt",
+        "line": 0,
+        "content": "1 0.8113630453124999 0.07232056406250001 0.7806552812499999 0.2549551171875 0.8096350609374999 0.2548623828125 0.842752596875 0.0833068578125 0.8113630453124999 0.07232056406250001",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.7df0f0c087cfce0ee6ab91a98602576f.txt",
+        "line": 0,
+        "content": "1 0.731921159375 0.0689113328125 0.7365341015625 0.2532921140625 0.7650281031249999 0.24934040781250003 0.764898553125 0.07557546875 0.731921159375 0.0689113328125",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.f0acc6404092608db26745216bba6aee.txt",
+        "line": 0,
+        "content": "1 0.7274145453124999 0.07737556718750001 0.7212926796875 0.2616851140625 0.7499973875 0.25806741718750004 0.7599817265625 0.08441865625 0.7274145453124999 0.07737556718750001",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.7f452039ec0e2dd544ce1e827448c2e4.txt",
+        "line": 0,
+        "content": "1 0.6543894109374999 0.024007918750000003 0.6611650250000001 0.2062102796875 0.68965586875 0.1971764296875 0.6874945375 0.0247079203125 0.6543894109374999 0.024007918750000003",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\train\\labels\\Loi-vuot-den-do-la-gi_png.rf.c02448033be2a8155fb371bd74721c0b.txt",
+        "line": 0,
+        "content": "1 0.66493325625 0.01491485625 0.679186440625 0.1972561171875 0.7073287890625 0.18821538124999998 0.6980926484375 0.015615392187499999 0.66493325625 0.01491485625",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\valid\\labels\\Phat-nguoi1_jpg.rf.b39a84c23c8c99503878af875de672f6.txt",
+        "line": 0,
+        "content": "1 0.9042424062500001 0.3137844625 0.8988225796875 0.48922891718750006 0.9367960484375001 0.495240240625 0.9416437765625 0.3189076734375 0.9042424062500001 0.3137844625",
+        "reason": "Invalid column count"
+      },
+      {
+        "file": "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_lights_vn\\test\\labels\\DJI_0692_000275_jpg.rf.264f035e5773a3a9ee7a831126f213fc.txt",
+        "line": 0,
+        "content": "0 0.7966159765625 0.0586120015625 0.7855739453125 0.234804465625 0.8092402296874999 0.23747457968750002 0.8205098968750001 0.060578556250000005 0.7966159765625 0.0586120015625",
+        "reason": "Invalid column count"
+      }
+    ],
+    "class_distribution": {
+      "Red (1)": 2612,
+      "Green (0)": 2271
+    },
+    "object_sizes": {
+      "small (<32px)": 367,
+      "medium (32-96px)": 3050,
+      "large (>96px)": 1466
+    },
+    "exact_duplicates": [],
+    "total_images": 2666,
+    "total_labels": 2662,
+    "total_objects": 4883,
+    "empty_label_images": 4
+  },
+  "traffic_signs": {
+    "dataset": "Zalo Traffic Sign 2020",
+    "total_train_images": 4500,
+    "total_test_images": 586,
+    "corrupted_images": [],
+    "invalid_bboxes": [],
+    "class_distribution": {
+      "2: Cấm dừng và đỗ": 2221,
+      "3: Cấm rẽ": 556,
+      "6: Nguy hiểm": 3049,
+      "5: Cấm còn lại": 1787,
+      "4: Giới hạn tốc độ": 949,
+      "1: Cấm ngược chiều": 1416,
+      "7: Hiệu lệnh": 1022
+    },
+    "object_sizes": {
+      "small (<32px)": 8329,
+      "medium (32-96px)": 2380,
+      "large (>96px)": 291
+    },
+    "exact_duplicates": [
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10215.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10613.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8201.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9189.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10350.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10483.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10544.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9272.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10718.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\7288.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8248.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\10799.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\7426.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\11652.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\7590.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9300.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9478.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\1170.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\1720.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\11843.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\6989.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8766.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8968.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9122.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9216.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\1503.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\7120.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\190.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\382.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\865.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3247.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3524.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3559.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3591.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3881.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3264.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3663.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3707.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\3843.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\5113.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\5454.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\5653.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\5924.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8433.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9107.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\8615.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_train\\images\\9010.png"
+      ],
+      [
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_public_test\\images\\506.png",
+        "d:\\HocTap\\Bien_bao\\Data\\Raw\\traffic_signs_zalo\\traffic_public_test\\images\\968.png"
+      ]
+    ],
+    "total_annotations": 11000,
+    "annotated_images": 4500,
+    "unannotated_images": 0
+  },
+  "countdown_digits": {
+    "dataset": "Countdown Timer Digits",
+    "total_images": 2500,
+    "classes": {
+      "0": 250,
+      "1": 250,
+      "2": 250,
+      "3": 250,
+      "4": 250,
+      "5": 250,
+      "6": 250,
+      "7": 250,
+      "8": 250,
+      "9": 250
+    },
+    "corrupted_images": []
+  }
+}

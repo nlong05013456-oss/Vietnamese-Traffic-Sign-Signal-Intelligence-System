@@ -1,0 +1,27 @@
+{
+  "traffic_signs": {
+    "total_objects": 11000,
+    "train_objects": 6238,
+    "val_objects": 1948,
+    "test_objects": 2814,
+    "small_objects_pct": 76.05,
+    "medium_objects_pct": 21.29,
+    "large_objects_pct": 2.66,
+    "median_bbox_px": 17.0,
+    "mean_bbox_px": 25.64,
+    "imbalance_ratio": 5.48
+  },
+  "traffic_lights": {
+    "total_objects": 4883,
+    "red_count": 2612,
+    "green_count": 2271,
+    "red_pct": 53.49,
+    "green_pct": 46.51
+  },
+  "countdown_digits": {
+    "total_images": 2500,
+    "per_class_train": 175,
+    "per_class_val": 37,
+    "per_class_test": 38
+  }
+}

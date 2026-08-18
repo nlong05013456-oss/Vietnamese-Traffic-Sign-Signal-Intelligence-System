@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets & Media
+Data/Raw/
+Data/Processed/traffic_signs_yolo/train/images/
+Data/Processed/traffic_signs_yolo/val/images/
+Data/Processed/traffic_signs_yolo/test/images/
+Data/Processed/traffic_lights_yolo/train/images/
+Data/Processed/traffic_lights_yolo/val/images/
+Data/Processed/traffic_lights_yolo/test/images/
+Data/Processed/countdown_digits_cls/train/
+Data/Processed/countdown_digits_cls/val/
+Data/Processed/countdown_digits_cls/test/
+Data/Test/videos/*.mp4
+Data/Reports/*.mp4
+*.mp4
+*.zip
+*.tar.gz
+
+# Model Weights (Keep repo lightweight < 10MB)
+*.pt
+*.pth
+!runs/classify/countdown_digits_baseline/best_digit_classifier.pth
+
+# Training batch debug images
+runs/detect/**/train_batch*.jpg
+runs/detect/**/val_batch*.jpg
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+ENV/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# OS Specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary logs & locks
+*.log
+*.lock

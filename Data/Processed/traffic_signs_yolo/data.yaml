@@ -1,0 +1,14 @@
+path: d:/HocTap/Bien_bao/Data/Processed/traffic_signs_yolo
+train: train/images
+val: val/images
+test: test/images
+
+nc: 7
+names:
+  0: Cam_nguoc_chieu
+  1: Cam_dung_va_do
+  2: Cam_re
+  3: Gioi_han_toc_do
+  4: Cam_con_lai
+  5: Nguy_hiem
+  6: Hieu_lenh
