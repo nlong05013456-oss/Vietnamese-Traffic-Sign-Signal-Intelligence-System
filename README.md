@@ -232,21 +232,5 @@ docker run -p 8000:8000 vietnamese-traffic-intelligence:latest
 
 ---
 
-## 💬 Interview Q&A Notes
-
-**Q: Why separate the system into 3 distinct models rather than one multi-head network?**
-Detection (signs, lights) and classification (digits) have different output types, loss functions, and evaluation metrics. Keeping them decoupled makes debugging and independent iteration easier; merging them is something to revisit later with actual benchmark evidence, not a day-one decision.
-
-**Q: How is data leakage handled in sequential dashcam data?**
-Frames from the same recording route are grouped and kept entirely within one split (`street_id`-based grouping) — this avoids near-duplicate consecutive frames leaking between train and test, which would otherwise inflate test metrics artificially.
-
-**Q: What's the current biggest weakness in the system?**
-Recall on the sign detector (0.384) — it misses a majority of signs present, largely because 76% of signs are small objects and the current baseline uses 640px input. This is a known, expected limitation of the baseline, not a surprise — the next experiment (832px) is designed specifically to test it.
-
-**Q: What happens if the camera sees a red light but no visible countdown display?**
-The system cannot report an exact remaining time in that case. It would need to fall back to an *estimated* time based on historical cycle patterns, clearly labeled as an estimate rather than a ground-truth reading — this fallback is not yet implemented.
-
----
-
 ## 📜 License
 MIT License.
